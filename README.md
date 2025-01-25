@@ -36,7 +36,7 @@ client_id = 'ID' #Сюда вставляем ID вашего приложени
 RPC = Presence(client_id)
 RPC.connect()
 
-print(RPC.update(state="Looking like I'm tip-top", details="Tick-tock heavy like a Brinks truck", large_image="image_18_", small_image="photo_2025-01-17_17-44-54", large_text="Получил, дурень?", start=time.time()))  # Set the presence
+print(RPC.update(state="TEXT", details="TEXT", large_image="your_image", small_image="your_image", large_text="TEXT", start=time.time()))  # Set the presence
 
 while True:
     time.sleep(15)
