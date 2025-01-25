@@ -31,7 +31,7 @@ _В целом как я заметил, на очень много гайдов
 from pypresence import Presence
 import time
 
-client_id = 'ID' #Сюда вставляем ID вашего приложения, берется он в ![image](https://github.com/user-attachments/assets/ac39841d-bcc0-403c-aab5-37a86a49f5b2)
+client_id = 'ID' #Сюда вставляем ID вашего приложения, берется он в General Information
 
 RPC = Presence(client_id)
 RPC.connect()
