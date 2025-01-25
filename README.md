@@ -27,7 +27,7 @@ _В целом как я заметил, на очень много гайдов
 **Надеюсь у вас уже стоит discord.py и теперь записываем этот код** 
 
 
-`from pypresence import Presence
+` from pypresence import Presence
 import time
 
 client_id = '1332426319949987890' #Put your client ID here
@@ -37,4 +37,4 @@ RPC.connect()
 print(RPC.update(state="Looking like I'm tip-top", details="Tick-tock heavy like a Brinks truck", large_image="image_18_", small_image="photo_2025-01-17_17-44-54", large_text="Получил, дурень?", start=time.time()))  # Set the presence
 
 while True:
-    time.sleep(15)`
+    time.sleep(15) `
