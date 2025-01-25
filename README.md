@@ -41,7 +41,7 @@ print(RPC.update(state="TEXT", details="TEXT", large_image="your_image", small_i
 while True:
     time.sleep(15)
 ```
-**Вместо TEXT и т.д, вставляете все что у вас хранится в SHow Code**
+**Вместо TEXT и т.д, вставляете все что у вас хранится в Show Code**
 
 
 **4. Запуск приложения**
