@@ -20,3 +20,22 @@ _В целом как я заметил, на очень много гайдов
 
 ![image](https://github.com/user-attachments/assets/560a839c-8b9f-4b42-beb2-75b6255def45)
 
+**Тут смотрим параметры которые у нас получились, но данный код копировать не требуется, мы все же сделаем чуть по другому**
+
+**3. Переходим в удобную IDE**
+
+**Надеюсь у вас уже стоит discord.py и теперь записываем этот код** 
+
+`
+from pypresence import Presence
+import time
+
+client_id = '1332426319949987890' #Put your client ID here
+RPC = Presence(client_id)
+RPC.connect()
+
+print(RPC.update(state="Looking like I'm tip-top", details="Tick-tock heavy like a Brinks truck", large_image="image_18_", small_image="photo_2025-01-17_17-44-54", large_text="Получил, дурень?", start=time.time()))  # Set the presence
+
+while True:
+    time.sleep(15)
+`
